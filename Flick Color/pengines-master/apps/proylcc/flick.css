@@ -1,0 +1,107 @@
+.mainPanel {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+	background-color: black;
+background: linear-gradient(white, black, teal, white);
+}
+
+.leftBar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(14, 40px);
+    grid-template-rows: repeat(14, 40px);
+    margin: 20px;
+	border: outset;
+	
+}
+
+.buttonsPanel {
+	margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 15px;
+    justify-content: center;
+	
+}
+
+.colorBtn {
+    height: 40px;
+    width: 40px;
+    border: dashed;
+    cursor: pointer;
+}
+
+.turnsPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana;
+    color: orange;
+}
+
+.turnsLab {
+    text-transform: uppercase;
+}
+
+#turnsNum {
+    margin-top: 10px;
+}
+
+#gridSelectBtn {
+	margin-top: 60px;
+	height: 40px;
+    width: 160px;
+    border: dashed;
+    cursor: pointer;
+	background-color: teal;
+	font-family: Verdana;
+	font-weight: bold;
+	transition: background-color 1s ease-out;
+}
+
+#gridSelectBtn:hover {
+  background-color: orange;
+}
+
+#mostrarAyudaSimple {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+    width: 160px;
+    border: dashed;
+	background-color: teal;
+    cursor: pointer;
+	font-family: Verdana;
+	font-weight: bold;
+	transition: background-color 1s ease-out;
+}
+
+#mostrarAyudaSimple:hover {
+	background-color: green;
+}
+
+#mostrarAyudaExtendida {
+	margin-bottom: 20px;
+	height: 40px;
+    width: 160px;
+    border: dashed;
+	background-color: teal;
+	font-family: Verdana;
+	font-weight: bold;
+    cursor: pointer;
+	transition: background-color 1s ease-out;
+}
+
+#mostrarAyudaExtendida:hover {
+	background-color: red;
+}
